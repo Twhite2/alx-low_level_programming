@@ -12,10 +12,10 @@ char capalph = 'A';
 for (alph = 'a'; alph <= 'z'; alph++)
 putchar(alph);
 
-putchar('\n');
-
 for (capalph = 'A'; capalph <= 'Z'; capalph++)
 putchar(capalph);
+
+putchar('\n');
 
 return (0);
 }
