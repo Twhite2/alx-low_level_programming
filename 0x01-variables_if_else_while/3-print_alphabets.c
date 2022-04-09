@@ -14,7 +14,7 @@ putchar(alph);
 
 
 for (capalph = 'A'; capalph <= 'Z'; capalph++)
-putchar('\n')
+putchar('\n');
 putchar(capalph);
 
 return (0);
