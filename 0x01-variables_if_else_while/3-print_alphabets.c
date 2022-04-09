@@ -12,9 +12,9 @@ char capalph = 'A';
 for (alph = 'a'; alph <= 'z'; alph++)
 putchar(alph);
 
+putchar('\n');
 
 for (capalph = 'A'; capalph <= 'Z'; capalph++)
-putchar('\n');
 putchar(capalph);
 
 return (0);
