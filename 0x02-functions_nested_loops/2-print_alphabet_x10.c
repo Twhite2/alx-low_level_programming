@@ -6,16 +6,14 @@ void print_alphabet_x10(void)
 {
 int i;
 char alph = 'a';
+while (i < 10)
+{
 while (alph <= 'z')
 {
-while (i <= 10)
-{
-i = 0;
 _putchar(alph);
-i++;
-}
 alph++;
-
+}
+i++;
 }
 return;
 }
