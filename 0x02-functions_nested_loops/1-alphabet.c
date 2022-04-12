@@ -4,7 +4,7 @@
  *
  * check the code
  *
- * Return: Always 0.
+ * 
  */
 void print_alphabet(void)
 {
@@ -14,7 +14,7 @@ while (alph <= 'z')
 {
 _putchar(alph);
 alph++;
-_putchar('\n');
 }
+_putchar('\n');
 return;
 }
