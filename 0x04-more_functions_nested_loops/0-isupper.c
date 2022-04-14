@@ -12,8 +12,8 @@ char calph;
 for (calph <= 'A'; calph >= 'Z'; calph++)
 {
 if (calph <= 'Z')
-return 1;
+return (1);
 else
-return 0;
+return (0);
 }
 }
