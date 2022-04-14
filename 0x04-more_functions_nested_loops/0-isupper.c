@@ -7,13 +7,12 @@
  */
 int _isupper(int c)
 {
-char calph;
-
-for (calph <= 'A'; calph >= 'Z'; calph++)
+if (c >= 'A' && c<= 'Z')
 {
-if (calph <= 'Z')
 return (1);
+}
 else
+{
 return (0);
 }
 }
