@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _stract - function commute strings
+ * _strcat - function commute strings
  * @dest: param pointer to a char
  * @src: param pointer to a char
  * Return: return value of dest
