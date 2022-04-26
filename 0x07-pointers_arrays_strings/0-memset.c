@@ -2,7 +2,7 @@
 /**
  * _memset - files memory with a constant byte,
  * @s: memory area.
- * @b: costant byte.
+ * @b: constant byte.
  * @n: bytes filled.
  * Return: the pointer to dest.
  */
