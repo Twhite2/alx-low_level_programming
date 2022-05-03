@@ -21,7 +21,7 @@ printf("Error\n");
 return (1);
 }
 }
-add += atoi(argv[1]);
+add += atoi(argv[i]);
 }
 printf("%d\n", add);
 return (0);
